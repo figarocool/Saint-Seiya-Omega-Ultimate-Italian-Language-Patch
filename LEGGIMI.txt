@@ -1,0 +1,27 @@
+====================================================================
+  SAINT SEIYA OMEGA: ULTIMATE COSMO (PSP) - PATCH ITALIANA v1.0
+====================================================================
+
+Questa patch converte la ISO originale giapponese di Saint Seiya Omega:
+Ultimate Cosmo (NPJH-50699) in una ISO completamente giocabile in italiano,
+compatibile con PS Vita (Adrenaline), PSP e PPSSPP.
+
+CONTENUTO TRADOTTO:
+- Tutti i menu principali, sottomenu, opzioni, galleria, profilo giocatori
+- Schermata di selezione personaggio, selezione storia, tutorial e combo list
+- Messaggi di sistema, salvataggio, installazione dati e avvisi
+- Dialoghi della Modalita' Storia e nomi dei personaggi in battaglia
+- Grafiche e pulsanti UI dei menu principali e dei titoli schermata
+
+COME APPLICARE LA PATCH:
+1. Estrai tutti i file di questo archivio in una cartella.
+2. Copia nella stessa cartella la tua ISO originale giapponese:
+   "Saint Seiya Omega - Ultimate Cosmo (Japan).iso" (941.096.960 byte)
+3. Avvia la patch:
+   - Su Windows: doppio click su "applica_patch_ita.bat"
+     (oppure trascina la ISO su applica_patch_ita.bat; richiede Python 3)
+   - Su Linux / macOS: esegui "./applica_patch_ita.sh"
+     (oppure "python3 applica_patch_ita.py percorso/della/iso.iso")
+4. Verra' creata la ISO:
+   "Saint Seiya Omega - Ultimate Cosmo (ITA).iso"
+5. Copia la ISO su PS Vita in "ux0:pspemu/ISO/" e gioca con Adrenaline!
