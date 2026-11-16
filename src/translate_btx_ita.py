@@ -1,3 +1,5 @@
+import json
+import os
 import re
 
 # 1. Exact table overrides by BTX path (or subfile name) and entry_id
@@ -744,9 +746,18 @@ STORY_PHRASES = [
     ("鱗衣", "Squama"),
 ]
 
+_STORY_ITA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ss_story_ita.json")
+STORY_ITA_MAP = {}
+if os.path.exists(_STORY_ITA_PATH):
+    with open(_STORY_ITA_PATH, encoding="utf-8") as _f:
+        STORY_ITA_MAP = json.load(_f)
+
+
 def translate_story_line(s: str, eid: int) -> str:
     if not s or not s.strip():
         return s
+    if s in STORY_ITA_MAP:
+        return STORY_ITA_MAP[s]
     if s in STORY_EXACT:
         return STORY_EXACT[s]
 
