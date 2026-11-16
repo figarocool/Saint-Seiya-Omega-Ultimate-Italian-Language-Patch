@@ -59,3 +59,10 @@ Traduzione completa in **italiano** per **Saint Seiya Omega: Ultimate Cosmo** (`
   - `translate_gim_ita.py` — Rendering grafico delle texture `.gim` e patching dei container `PREB_*.CSB` e `titledata.pac`.
   - `build_ita_iso.py` — Ricostruzione completa della ISO italiana.
   - `make_patch_pkg.py` — Generazione del delta binario e del pacchetto distributivo `.zip`.
+
+---
+
+## Disclaimer
+
+Questo progetto è una **traduzione amatoriale gratuita e senza scopo di lucro**.  
+Non include né distribuisce alcuna ISO o copia completa del gioco originale: per applicare la patch è necessario possedere una propria copia di *Saint Seiya Omega: Ultimate Cosmo* (`NPJH-50699`). Tutti i diritti sul gioco, marchi, personaggi e musiche appartengono ai rispettivi proprietari (Masami Kurumada / Toei Animation / Bandai Namco).

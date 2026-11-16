@@ -14,7 +14,7 @@ EXACT_TABLES = {
         8: "Ionia",
     },
     "SYSTEMWINDOW_JP.BTX": {
-        0: "Si'",
+        0: "Si",
         1: "No",
         2: "OK",
         3: "Mito",
@@ -273,7 +273,7 @@ EXACT_TABLES = {
         0: "Cavaliere d'Argento del Pavone. Elemento Acqua.\r\nMaestra di Yuna, le ha insegnato non solo\r\na combattere ma anche a vivere da Cavaliere.\r\nCome Yuna usa soprattutto i calci, ma con\r\nun bilanciamento attacco/difesa superiore.\r\n(Voce: Ai Orikasa)"
     },
     "btx/system/systemmessage_jp.btx": {
-        0: "Si'",
+        0: "Si",
         1: "No",
         2: "OK",
         3: "Conferma",
@@ -374,7 +374,7 @@ EXACT_TABLES = {
         151: "Recupero HP",
         152: "Barra Cosmo",
         153: "Stato Armatura",
-        154: "Si'",
+        154: "Si",
         155: "No",
         160: "Fermo",
         161: "Salto",
